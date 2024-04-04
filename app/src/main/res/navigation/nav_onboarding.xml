@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_onboarding"
+    app:startDestination="@id/onboardingFavoritiesFragment">
+    <fragment
+        android:id="@+id/onboardingFavoritiesFragment"
+        android:name="com.getir.patika.foodcouriers.OnboardingFavoritiesFragment"
+        android:label="OnboardingFavoritiesFragment"
+        tools:layout="@layout/fragment_onboarding_favorities">
+        <action
+            android:id="@+id/action_onboardingFavoritiesFragment_to_onboardingCheapFragment2"
+            app:destination="@id/onboardingCheapFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingCheapFragment2"
+        android:name="com.getir.patika.foodcouriers.OnboardingCheapFragment"
+        android:label="OnboardingCheapFragment"
+        tools:layout="@layout/fragment_onboarding_cheap">
+        <action
+            android:id="@+id/action_onboardingCheapFragment2_to_nav_account"
+            app:destination="@id/nav_account" />
+    </fragment>
+    <include app:graph="@navigation/nav_account" />
+</navigation>
