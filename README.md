@@ -2,6 +2,8 @@
 # w3-assignment
 Getir Android Kotlin Bootcamp w3 Assignment
 
+![week3](https://github.com/Getir-Android-Kotlin-Bootcamp/getir-android-kotlin-bootcamp-w3-assignment-ecetkr/assets/63408298/8d39d49f-7588-4f47-99ad-fd68423777a8)
+
 ## Onboarding navigation akışını iki farklı akış biçimine getireceğiz. 
 Onboarding nav kalacak
 

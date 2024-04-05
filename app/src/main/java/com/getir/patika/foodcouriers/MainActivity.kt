@@ -24,9 +24,6 @@ import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
 
-//    private lateinit var tabLayout: TabLayout
-//    private lateinit var viewPager2: ViewPager2
-//    private lateinit var pagerAdapter: PagerAdapter
 private lateinit var fusedLocationClient: FusedLocationProviderClient
 private lateinit var locationTextView: TextView
 private lateinit var locationSearch: SearchView
@@ -38,12 +35,6 @@ private lateinit var mapFragment: MapFragment
         setContentView(R.layout.activity_main)
 
 
-
-        //setContentView(R.layout.fragment_chat)
-
-
-//        setContentView(R.layout.activity_main)
-//
 //
 //        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 //        val fragment: Fragment = MapFragment()

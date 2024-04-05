@@ -89,7 +89,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Sign Up" />
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/poppins"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            app:backgroundTint="@null" />
+
 
         <View
             android:id="@+id/divider2"
@@ -100,17 +106,21 @@
             android:background="#D2D4D8" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bt_google"
             android:layout_width="match_parent"
             android:layout_gravity="start"
             android:layout_marginHorizontal="30dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="13dp"
+            android:background="@drawable/button_gradient"
             android:drawableLeft="@drawable/ic_google"
             android:drawablePadding="100dp"
             android:textAlignment="textStart"
-            android:text="Sign up with Google" />
-
+            android:fontFamily="@font/poppins"
+            android:text="Sign Up with Google"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            app:backgroundTint="@null" />
 
     </LinearLayout>
 
